@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(93, 93, 93);
+}
+.app{
+    width: 50%;
+    max-width: 600px;
+    padding: 30px;
+    outline: 1px solid rgb(182, 255, 245);
+    border: 2px solid rgb(109, 254, 235);
+    border-radius: 10px;
+    margin: 100px auto 0;
+    background: #ffffff;
+}
+.app h1{
+    font-size: 20px;
+    color:  rgb(207, 155, 255);
+    font-weight: 600;
+    border-bottom: 2px solid  rgb(211, 182, 255);
+    padding-bottom: 10px;
+}
+.app h2{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 0 10px 0;
+    color: rgba(0, 131, 126, 0.866);
+    border-bottom: 2px solid  rgb(207, 155, 255) ;
+}
+#ans{
+    display: flex;
+    flex-direction: column;
+    padding: 7px 0 7px 0;
+}
+.bnt{
+    background: #ffffff;
+    cursor: pointer;
+    margin-block: 10px;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.bnt:hover:not([disabled]){
+    background: rgb(22, 28, 37);
+    color: #ffffff;
+}
+.bnt:disabled{
+    cursor: no-drop;
+}
+
+#next-bnt{
+    font-size: 20px;
+    width: 160px;
+    font-weight: 600;
+    margin: 20px auto 0;
+    color: currentcolor;
+    border: 0;
+    border-radius: 6px;
+    padding: 10px;
+    transition: all 0.2s;
+    cursor: pointer;
+    display: none;
+}
+#next-bnt:hover{
+    background: rgb(39, 255, 122);
+}
+.correct{
+    background: #8bff61e6;
+}
+.incorrect{
+    background: rgba(255, 57, 57, 0.901);
+}
