@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lunasima:wght@400;700&family=Six+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Lunasima:wght@400;700&family=Six+Caps&family=Staatliches&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+body {
+    background: #222;
+}
+
+.card {
+    background: linear-gradient(rgb(137, 255, 212), #769b9e, rgb(233, 213, 140));
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    max-width: 450px;
+    margin: 100px auto 0;
+    padding: 40px 35px;
+    border-radius: 20px;
+}
+
+.search {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border: 0;
+    height: 45px;
+    outline: 0;
+    width: 86%;
+    background-color: #222;
+    color: #a0f397;
+    border-radius: 35px;
+    flex: 1;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 200;
+    font: bold;
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px 12px;
+}
+
+.search button {
+    border: 0 solid rgb(113, 96, 99);
+    height: 50px;
+    outline: 0 solid gray;
+    width: 12%;
+    border-radius: 100%;
+    font-size: 18px;
+    cursor: pointer;
+    background: none;
+}
+
+.search button img {
+    width: 40px;
+}
+
+.w-icon {
+    width: 40%;
+    margin-top: 30px;
+    padding: 20px 0;
+}
+
+.temp {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.city {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: -10px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img {
+    width: 70px;
+    margin-right: 10px;
+
+}
+
+.hval,
+.wval {
+    font-size: 28px;
+    margin-right: 6px;
+    font-weight: 600;
+}
+
+.climate {
+    display: none;
+}
+
+.error {
+    display: none;
+    text-align: left;
+    padding: 10px 10px;
+    font-size: 20px;
+    font: bold;
+    font-style: oblique;
+    font-weight: 800;
+    color: rgba(186, 9, 9, 0.659);
+}
